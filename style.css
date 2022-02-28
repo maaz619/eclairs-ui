@@ -1,94 +1,85 @@
-body{
-    background-color:rgb(248, 246, 246) ;
-    color: rgb(17, 17, 17);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
 }
-:root{
-    --primary-color: rgb(51, 5, 112);
-    --a-color: rgb(79, 167, 137);
-
+:root {
+  --primary-color: #fafafa;
+  --a-color: #ec4899;
 }
-.navigation{
-    background-color: var(--primary-color);
-    color: white;
-    font-size: 16px;
-    padding: 0.8rem;
-    border-bottom-right-radius: 1rem;
-    margin-bottom: none;
+.navigation {
+  font-size: 16px;
+  padding: 0.8rem;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: none;
 }
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-.navigation .nav-pills{
-    text-align: right;
+.navigation .nav-pills {
+  text-align: right;
 }
-.navigation .link{
-    color: white;
-    font-size: 15px;
+.navigation .link {
+  color: var(--a-color);
+  font-size: 15px;
 }
 .navigation .link-active {
-    font-weight: bold; 
+  font-weight: bold;
 }
-.list-non-bullet{
-    list-style: none;
+.list-non-bullet {
+  list-style: none;
 }
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
-.link{
-    text-decoration: none;
-    padding: 0.1rem 0.1rem;
-    font-size: 15px;
+.link {
+  text-decoration: none;
+  padding: 0.1rem 0.1rem;
+  font-size: 15px;
 }
-.primary-link{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: rgb(247, 247, 247);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+.primary-link {
+  border-radius: 0.5rem;
+  color: var(--a-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
 }
-.secondary-link{
-    border:1px solid white;
-    color: rgb(236, 226, 226);
-    font-size: 17px;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+.secondary-link {
+  color: var(--a-color);
+  font-size: 17px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
-.pp{
-    max-width: 350px;
-    display: block;
-    margin: auto;
+.pp {
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
-.pp1{
-    max-width: 100px;
-    display: block;
-    margin: auto;
+.pp1 {
+  max-width: 50px;
+  margin-left: 1rem;
+  border-radius: 2em;
 }
-.pp2{
-    max-width: 50px;
-    display: block;
-    margin: auto;
+.pp2 {
+  max-width: 50px;
+  display: block;
+  margin: auto;
 }
 
-h1{
-    text-align: center;
-    font-size: 45px;
+h1 {
+  text-align: center;
+  font-size: 45px;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
-.footer{
-    background-color: var(--primary-color);
-    padding: 2.5rem 0.5rem;
-    padding-bottom: 0.3%;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-
+.footer {
+  padding: 2.5rem 0.5rem;
+  padding-bottom: 0.3%;
+  text-align: center;
+  font-size: 15px;
 }
-.footer .link{
-    color: white;
+.footer .link {
+  color: var(--a-color);
 }
-
