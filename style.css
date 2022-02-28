@@ -108,3 +108,10 @@ p {
   max-width: 500px;
   margin: auto;
 }
+.header {
+  width: fit-content;
+}
+.header > h1 {
+  text-align: center;
+  padding: 1em;
+}
